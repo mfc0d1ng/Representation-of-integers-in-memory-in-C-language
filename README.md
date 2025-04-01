@@ -1,5 +1,5 @@
 # Representation of integers in memory
-Have you ever wondered how integers are represented in your computer memory? the library provides a set of functions to get the representation of integers in your computer memory.
+Have you ever wondered how integers are represented in your computer memory? the <a href="https://github.com/mfc0d1ng/Representation-of-integers-in-memory-in-C-language">library</a> provides a set of functions to get the representation of integers in your computer memory.
 
 <h2> Requirements :- </h2>
 This <a href="https://github.com/mfc0d1ng/Handling-dynamic-strings-in-C-language">library</a> is required for handling dynamic strings.
