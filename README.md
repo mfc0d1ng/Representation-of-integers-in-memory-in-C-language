@@ -29,3 +29,27 @@ int main()
 }
 </code>
 </pre>
+
+* Example B:
+
+<pre>
+<code class="language-c">
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include "include/to_bits.h"
+
+int main()
+{
+    string bits = string_new();
+
+    i8_to_bits(&bits, -1);
+
+    printf("Representation of -1 in memory is: %s\n", string_c_str(&bits));
+
+    string_destructor(&bits);
+    
+    return EXIT_SUCCESS;
+}
+</code>
+</pre>
+
