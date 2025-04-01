@@ -21,7 +21,7 @@ int main()
 
     i32_to_bits(&bits, -1000);
 
-    printf("Representation of -1000 in memory is: %s\n", string_c_str(&bits));
+    printf("Representation of (-1000) in memory is: %s\n", string_c_str(&bits));
 
     string_destructor(&bits);
     
@@ -44,7 +44,7 @@ int main()
 
     i8_to_bits(&bits, -1);
 
-    printf("Representation of -1 in memory is: %s\n", string_c_str(&bits));
+    printf("Representation of (-1) in memory is: %s\n", string_c_str(&bits));
 
     string_destructor(&bits);
     
