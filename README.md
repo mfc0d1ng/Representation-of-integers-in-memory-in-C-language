@@ -53,3 +53,28 @@ int main()
 </code>
 </pre>
 
+
+* Example C:
+
+<pre>
+<code class="language-c">
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;limits.h&gt;
+#include "include/to_bits.h"
+
+int main()
+{
+    string bits = string_new();
+
+    u64_to_bits(&bits, ULLONG_MAX);
+
+    printf("Representation of (ULLONG_MAX) in memory is: %s\n", string_c_str(&bits));
+
+    string_destructor(&bits);
+    
+    return EXIT_SUCCESS;
+}
+</code>
+</pre>
+
